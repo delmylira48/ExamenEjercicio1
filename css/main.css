@@ -1,0 +1,112 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #f1f3f6;
+    font-family:'SFProDisplay-Regular', Helvetica, Arial, sans-serif;
+    color: #0c0d11;
+}
+
+.contenedorPrincipal{
+    display: flex;
+    height: 100vh;
+    padding: 1rem;
+}
+
+/* ------------------ APARTADO IZQUIERDO ------------------------- */
+
+.ContenedorApartadoIzquierdo{
+    flex:6;
+}
+
+.ContenedorApartadoIzquierdo h1{
+    color: #1977f1;
+    font-size: 8rem;
+    margin: 0;
+    font-weight: bolder;
+    letter-spacing: -1.5px;
+}
+
+.ContenedorApartadoIzquierdo h2{
+    width: 85%;
+    font-size: 3.5rem;
+    color: #0c0d11;
+    margin:0px;
+    margin-top: .5rem;
+    font-weight: 100;
+}
+
+.ContenedorApartadoIzquierdo{
+    margin: 13rem 3rem;
+}
+
+.ContenedorApartadoDerecho{
+    flex:4;
+
+}
+
+/* ------------------------APARTADO DERECHO --------------------------*/
+
+.formulario{
+    height: 60%;
+    margin: auto;
+    background-color: #ffff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+.ContenedorApartadoDerecho form input{
+    border-radius: .5rem;
+    border-color: #e9e9ea;
+    border-width: 1px;
+    padding: 1.5rem 2rem;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+
+form button{
+    background-color: #1977f1;
+    color: #fafcff;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+form .cuentaNueva{
+    background-color: #41b729;
+}
+
+.contenedorDerecho, a {
+    color: #3c85dd;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.contenedorDerecho, .textoInferior span{
+    font-weight: bold;
+}
+
+.contenedorDerecho, .textoInferior{
+    text-align: center;
+}
+
+hr{
+    background-color: #0c0d11;
+    height: 1px;
+    width: 100%;
+}
